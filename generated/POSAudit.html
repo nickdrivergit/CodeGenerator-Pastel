@@ -1,0 +1,30 @@
+<div class="content">
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="POSAudit-card" class="card">
+                <div class="card-header header-elements-inline">
+                    <h5 class="card-title">POSAudit</h5>
+                </div>
+                <div class="card-body">
+                    <table id="POSAudit01" class="table datatable-basic table-bordered">
+                        <thead>
+                            <tr>
+								<th>UserID</th>
+								<th>AuditDate</th>
+								<th>AuditTime</th>
+								<th>Reason</th>
+								<th>InvoiceNo</th>
+								<th>TransType</th>
+								<th>Amount</th>
+								<th>Status</th>
+                                
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script language="JavaScript" type="text/javascript" src="{{ url_for('static', filename='assets/local/js/dbViewAjax/POSAudit.js') }}"></script>

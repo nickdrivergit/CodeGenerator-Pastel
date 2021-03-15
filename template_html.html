@@ -1,0 +1,22 @@
+<div class="content">
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="%$_tableName_$%-card" class="card">
+                <div class="card-header header-elements-inline">
+                    <h5 class="card-title">%$_tableName_$%</h5>
+                </div>
+                <div class="card-body">
+                    <table id="%$_tableName_$%01" class="table datatable-basic table-bordered">
+                        <thead>
+                            <tr>
+                                %HTML_COLUMNS%
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script language="JavaScript" type="text/javascript" src="{{ url_for('static', filename='assets/local/js/dbViewAjax/%$_tableName_$%.js') }}"></script>
